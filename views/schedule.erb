@@ -8,8 +8,8 @@
 
   <table>
     <tr>
-      <td>8pm</td>
-      <td>Doors open</td>
+    	 <% @schedule.each do |schedule| %>
+    	 <td><%= schedule %></td>
     </tr>
     <!-- etc. etc. -->
   </table>
