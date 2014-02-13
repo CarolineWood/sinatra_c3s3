@@ -6,10 +6,10 @@
 <body>
   <h1>Todo list</h1>
 
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+   <ul>
+    <% @todos.each do |todos| %>
+      <li><%= todos %></li>
+    <% end %>
   </ul>
 
 </body>
