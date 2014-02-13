@@ -7,12 +7,12 @@
   <h1>Event schedule</h1>
 
   <table>
-    <tr>
     	 <% @schedule.each do |scheduleItem| %>
-    	 <td><%= scheduleItem %></td>
+    <tr>
     	 <td><%= scheduleItem %></td>
     </tr>
     <!-- etc. etc. -->
+  <% end %>
   </table>
 
 </body>
